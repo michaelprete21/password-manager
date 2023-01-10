@@ -100,7 +100,7 @@ canvas.grid(column=1, row=0)
 website_label = Label(text="Website/Program:")
 website_label.grid(row=1, column=0)
 website_input = Entry(width=21)
-website_input.grid(column=1, row=1, columnspan=2, sticky="EW")
+website_input.grid(column=1, row=1, sticky="EW")
 website_input.focus()
 
 
@@ -116,7 +116,7 @@ username_input.insert(0, "michael@gmail.com")
 password_label = Label(text="Password:")
 password_label.grid(column=0, row=3)
 password_input = Entry(width=21)
-password_input.grid(column=1, row=3, columnspan=2, sticky="EW")
+password_input.grid(column=1, row=3, sticky="EW")
 
 
 # Buttons
