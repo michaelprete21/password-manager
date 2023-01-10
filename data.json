@@ -1,0 +1,10 @@
+{
+    "sample": {
+        "email": "michael@gmail.com",
+        "password": "sample"
+    },
+    "wiki": {
+        "email": "michael@gmail.com",
+        "password": "wiki"
+    }
+}
